@@ -1,0 +1,23 @@
+categories_page_depth:
+  type: enum
+  default: 2
+  choices:
+    - 1
+    - 2
+    - 3
+
+show_grandchildren_on_subcategories_page:
+  default: true
+
+show_grandchildren_above_topic_lists:
+  default: true
+
+always_expanded_categories:
+  type: list
+  list_type: category
+  default: ""
+
+never_expanded_categories:
+  type: list
+  list_type: category
+  default: ""

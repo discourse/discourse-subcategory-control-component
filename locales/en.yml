@@ -1,0 +1,9 @@
+en:
+  theme_metadata:
+    description: "Limit how many levels of subcategories each category listing shows"
+    settings:
+      categories_page_depth: "How many levels of categories the /categories page shows. 1 shows top-level categories only, 2 adds their subcategories, 3 includes the third level. </br></br><b>A third level only exists if the site allows three levels of nesting, you must set max_category_nesting which is a <a href='https://meta.discourse.org/t/using-hidden-site-settings/308773'>hidden site setting</a>.</b>"
+      show_grandchildren_on_subcategories_page: "On a category's subcategories page, show a third level under each subcategory. Needs three levels of nesting to be allowed."
+      show_grandchildren_above_topic_lists: "In the subcategory list above a category's topics, show a third level under each subcategory. Needs three levels of nesting to be allowed."
+      always_expanded_categories: "These categories, and everything beneath them, always list their subcategories on every listing, whatever the settings above say. Choosing a top-level category covers its whole branch."
+      never_expanded_categories: "These categories, and everything beneath them, never list their subcategories on any listing. Their subcategories are still reachable everywhere else, including from the category's own pages."
